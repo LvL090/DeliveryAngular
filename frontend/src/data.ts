@@ -1,4 +1,5 @@
 import { Food } from "./app/shared/models/Food";
+import { Tag } from "./app/shared/models/Tag";
 
 export const sample_foods: Food [] = [
 
@@ -11,7 +12,7 @@ export const sample_foods: Food [] = [
     origins: ['italia'],
     stars: 4,
     imageUrl: 'assets/food-1.jpg',
-    tags: ['FastFood', 'Pizza', 'Lunch'],
+    tags: ['ComidaRápida', 'Pizza', 'Comida'],
   },
   {
     id:'2',
@@ -22,7 +23,7 @@ export const sample_foods: Food [] = [
     origins: ['persia', 'oriente medio', 'china'],
     stars: 4.5,
     imageUrl: 'assets/food-2.jpg',
-    tags: ['SlowFood', 'Lunch'],
+    tags: ['ComidaLenta', 'Comida'],
   },
   {
     id:'3',
@@ -33,7 +34,7 @@ export const sample_foods: Food [] = [
     origins: ['alemania', 'américa'],
     stars: 3,
     imageUrl: 'assets/food-3.jpg',
-    tags: ['FastFood', 'Hamburger'],
+    tags: ['ComidaRápida', 'Hamburguesa'],
   },
   {
     id:'4',
@@ -44,7 +45,7 @@ export const sample_foods: Food [] = [
     origins: ['bélgica', 'francia'],
     stars: 3.5,
     imageUrl: 'assets/food-4.jpg',
-    tags: ['FastFood', 'Fry'],
+    tags: ['ComidaRápida', 'Frito'],
   },
   {
     id:'5',
@@ -55,7 +56,7 @@ export const sample_foods: Food [] = [
     origins: ['india', 'asia'],
     stars: 3.0,
     imageUrl: 'assets/food-5.jpg',
-    tags: ['SlowFood', 'Soup'],
+    tags: ['ComidaLenta', 'Sopa'],
   },
   {
     id:'6',
@@ -66,6 +67,17 @@ export const sample_foods: Food [] = [
     origins: ['italia'],
     stars: 4.0,
     imageUrl: 'assets/food-6.jpg',
-    tags: ['FastFood', 'Pizza', 'Lunch'],
+    tags: ['ComidaRápida', 'Pizza', 'Comida'],
   },
+]
+
+export const sample_tags:Tag [] = [
+ // { name: 'All', count: 6 }, NO PILLA EN CASTELLANO//
+  { name: 'ComidaRápida', count: 4 },
+  { name: 'Pizza', count: 2 },
+  { name: 'Comida', count: 3 },
+  { name: 'ComidaLenta', count: 2 },
+  { name: 'Hamburguesa', count: 1 },
+  { name: 'Frito', count: 1 },
+  { name: 'Sopa', count: 1 },
 ]
