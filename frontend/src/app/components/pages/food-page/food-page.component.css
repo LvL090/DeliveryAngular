@@ -9,14 +9,17 @@
 .container > *{
   min-width: 25rem;
   max-width: 40rem;
+  
 }
 
 img{
   border-radius: 3rem;
   flex: 1 0;
   object-fit: cover;
-  height: 35rem;
-  margin: 1rem;
+  max-width: 100%;
+  display: block;
+  height: auto;
+  padding: 1rem;
 }
 
 .details{
